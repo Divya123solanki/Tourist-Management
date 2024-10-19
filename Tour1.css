@@ -1,0 +1,62 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family:Arial, Helvetica, sans-serif;
+   background-size:cover;
+   background-position: center;
+}
+nav{
+    position:fixed;
+    width: 100%;
+    display: flex;
+    justify-content:space-between;
+    padding: 10px 20px;
+}
+nav h2{
+    fon-size: 24px;
+   font-weight: bold;
+   color: white;
+}
+.icons a{
+     text-decoration: none;
+     color: black;
+     border-radius: 5px;
+     border-color:#fff;
+     padding: 5px;
+     align-self: auto;
+}
+.menu a{
+    list-style-type: none;
+    text-decoration: none;
+    color: white;
+}
+.menu li{
+    display: inline;
+    margin-left:20px;
+    padding: 20px 40px;
+}
+.text{
+    text-align:center;
+    margin-top: 0;
+    padding: 0;
+    margin-left: 50px;
+    color: white;
+    max-width: 900px;
+
+}
+.Torist-Places{
+    text-align:center;
+    padding: 150px;
+    color: #fff;
+    font-size:100px;
+}
+.text button{
+    margin-top: 10px;
+    padding: 10px 20px;
+    border-radius: 10px;
+
+
+}
