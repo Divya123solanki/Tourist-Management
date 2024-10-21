@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Order Now</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-image: url('contact.jpeg');
+            background-size: cover;
+            background-position: center;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+        }
+
+        .Order-form {
+            background: rgba(255, 255, 255, 0.8);
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+            width: 500px;
+        }
+
+        .Order-form h2 {
+            text-align: center;
+            margin-bottom: 20px;
+        }
+
+        .Order-form input,
+        .Order-form select {
+            width: 100%;
+            padding: 10px;
+            margin: 10px 0;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+        }
+
+        .Order-form button {
+            width: 48%;
+            padding: 10px;
+            margin: 10px 1%;
+            border: none;
+            border-radius: 5px;
+            background-color: #28a745;
+            color: white;
+            cursor: pointer;
+        }
+
+        .Order-form button.reset {
+            background-color: #dc3545;
+        }
+
+        .Order-form button:hover {
+            opacity: 0.9;
+        }
+    </style>
+</head>
+
+<body>
+    <form class="Order-form">
+        <h2>Order Now</h2>
+        <input type="text" name="name" placeholder="Name" required>
+        <input type="email" name="email" placeholder="Email" required>
+       
+
+        <select name="gender" required>
+            <option value="">Delivery Mode</option>
+            <option value="male">Cash On Delivery</option>
+            <option value="female">Pay Now</option>
+           
+        </select>
+
+        <select name="Reviews" required>
+            <option value="">Reviews</option>
+            <option value="male">Warst</option>
+            <option value="female">Bad</option>
+            <option value="female">Good</option>
+            <option value="female">Excellent</option>
+
+           
+        </select>
+
+        
+        <select name="Size" required>
+            <option value="">Size</option>
+            <option value="small">S</option>
+            <option value="medium">M</option>
+            <option value="large">L</option>
+            <option value="Extra Large">XL</option>
+            <option value="Extra Extra Large">XXL</option>
+           
+        </select>
+
+        <input type="tel" name="mobile" placeholder="Mobile Number" required>
+        <input type="tel" name="pincode" placeholder="Pin Code" required>
+        <input type="tel" name="address" placeholder="Address" required>
+        <div style="display: flex; justify-content: space-between;">
+            <a href="/Thabku.html"><button type="submit">Submit</button>
+            <button type="reset" class="reset">Reset</button>
+        </div>
+    </form>
+
+</body>
+
+</html>
